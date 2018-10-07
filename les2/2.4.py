@@ -1,8 +1,4 @@
-a=6
-b=7
-voornaam="walid"
-achternaam="avzaly"
-b>75<a
-len(mijnnaam)==len(voornaam+tussenvoegsel+achternaam)
-(len(mijnnaam*5)==len(achternaam)
- tussenvoegsel in achternaam
+uurloon=input("hoeveel verdien je per uur: ")
+aantaluur=input("hoeveel uur heb je geweerkt: ")
+salaris=int(uurloon)*int(aantaluur)
+print(str(aantaluur)+" uur werken levert"+str(salaris)+" Euro op")
